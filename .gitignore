@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data — never commit patient data
+data/
+*.nii
+*.nii.gz
+*.dcm
+*.csv
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+runs/
+runs_*/
+*_model/
+*_evaluation/
+
+# Preprocessing outputs
+nifti_out/
+preproc_out/
+T1_ADNI_3D_preprocessed/
+
+# Visualisation outputs
+gradcam_results_*/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
