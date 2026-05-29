@@ -16,14 +16,14 @@ and 3D Grad-CAM explainability.
 
 | Model | Accuracy | AUC |
 |---|---|---|
-| ResNet34 + SE/GARB | 91.21% | 0.9634 |
-| ResNet34 + SE/GARB (SSL pretrained) | **92.34%** | **0.9507** |
-| Tiny CNN (distilled, ADNI test set) | 91.30% | 0.9773 |
-| Tiny CNN (OASIS generalisation) | 83.62% | 0.9155 |
+| ResNet34 + SE/GARB | 91.85% | 0.9576 |
+| ResNet34 + SE/GARB (SSL pretrained) | 92.70% |  0.9514 |
+| Tiny CNN (distilled, ADNI test set) | 91.85% | 0.9552 |
+| Tiny CNN (OASIS generalisation) | 83.69% | 0.9169 |
 
 ### Multiclass classification: CN vs MCI vs AD
 
-| Model | Accuracy | Macro F1 |
+| Model | Accuracy | Macro Average F1 |
 |---|---|---|
 | ResNet34 + SE/GARB | **61.15%** | **0.6192** |
 
